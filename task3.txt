@@ -1,0 +1,158 @@
+Compilation:
+kudell95@~/Task3$ g++ task3.cpp customer.cpp job.cpp -o task3.out -Wall
+kudell95@~/Task3$
+
+Sample runs:
+
+
+kudell95@DESKTOP-3QOQ09L:/mnt/c/Users/Thorm/Desktop/Programming/CSC2401/Assignment2/Task3$ ./task3.out
+loading Customers...
+
+Number of jobs for today: 3
+
+Job 1:
+Customer Name: D David
+
+Job Details: washing Machine broken
+Job Priority: 20
+
+Job 2:
+Customer Name: K Karl
+Customer Address: 3 Central Street
+Account Number: 536-246
+
+Job Details: Broken kitchen tap
+Job Priority: 12
+
+Job 3:
+Customer Name: C Carl
+
+Job Details: Gas leak in kitchen
+Job Priority: 99
+
+Sorting Job List...
+
+Gas leak in kitchen
+Customer Name: C Carl
+Address: 3 East Street
+Job Handled By: M Matt
+
+washing Machine broken
+Customer Name: D David
+Address: 1 West Street
+Job Handled By: S Stefan
+
+Broken kitchen tap
+Customer Name: K Karl
+Address: 3 Central Street
+Job Handled By: N Nick
+
+
+Managing Job Scheduler...
+Menu
+Select 1 to view our customer list
+Select 2 to view our pending jobs
+Select 3 to search for the details of job handled by a proffesional
+Select 4 to Delete a Job
+Select 5 to exit the Job Scheduler
+1
+
+Customer List...
+D David, 1 West Street, 123-456
+A Alice, 2 North Street, 234-567
+C Carl, 3 East Street, 345-678
+Z Zoro, 2 North Street, 456-789
+K Karl, 3 Central Street, 536-246
+
+Menu
+Select 1 to view our customer list
+Select 2 to view our pending jobs
+Select 3 to search for the details of job handled by a proffesional
+Select 4 to Delete a Job
+Select 5 to exit the Job Scheduler
+3
+
+Display job handled by: P Peter
+P Peter has no jobs today!
+
+
+Menu
+Select 1 to view our customer list
+Select 2 to view our pending jobs
+Select 3 to search for the details of job handled by a proffesional
+Select 4 to Delete a Job
+Select 5 to exit the Job Scheduler
+3
+
+Display job handled by: M Matt
+Gas leak in kitchen
+Customer Name: C Carl
+Address: 3 East Street
+
+Menu
+Select 1 to view our customer list
+Select 2 to view our pending jobs
+Select 3 to search for the details of job handled by a proffesional
+Select 4 to Delete a Job
+Select 5 to exit the Job Scheduler
+4
+
+Delete job handled by:
+0 jobs deleted
+Menu
+Select 1 to view our customer list
+Select 2 to view our pending jobs
+Select 3 to search for the details of job handled by a proffesional
+Select 4 to Delete a Job
+Select 5 to exit the Job Scheduler
+2
+
+Pending Jobs...
+
+Gas leak in kitchen
+Customer Name: C Carl
+Address: 3 East Street
+
+washing Machine broken
+Customer Name: D David
+Address: 1 West Street
+
+Broken kitchen tap
+Customer Name: K Karl
+Address: 3 Central Street
+
+Menu
+Select 1 to view our customer list
+Select 2 to view our pending jobs
+Select 3 to search for the details of job handled by a proffesional
+Select 4 to Delete a Job
+Select 5 to exit the Job Scheduler
+4
+
+Delete job handled by: M Matt
+1 jobs deleted
+Menu
+Select 1 to view our customer list
+Select 2 to view our pending jobs
+Select 3 to search for the details of job handled by a proffesional
+Select 4 to Delete a Job
+Select 5 to exit the Job Scheduler
+2
+
+Pending Jobs...
+
+washing Machine broken
+Customer Name: D David
+Address: 1 West Street
+
+Broken kitchen tap
+Customer Name: K Karl
+Address: 3 Central Street
+
+Menu
+Select 1 to view our customer list
+Select 2 to view our pending jobs
+Select 3 to search for the details of job handled by a proffesional
+Select 4 to Delete a Job
+Select 5 to exit the Job Scheduler
+5
